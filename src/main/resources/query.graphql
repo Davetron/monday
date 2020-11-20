@@ -1,0 +1,9 @@
+query {
+    boards (ids: 860823721) {
+        activity_logs {
+            id
+            event
+            data
+        }
+    }
+}
